@@ -6,7 +6,16 @@ import { RiSendPlaneFill } from "react-icons/ri";
 const Contact = () => {
     return (
         <>
-            <div className="container mx-auto p-[35px]">
+            <div className="container mx-auto mb:p-[35px]">
+
+                <div className="block lg:hidden mb-5">
+                    <h1 className="text-3xl font-semibold">
+                        Contact
+                    </h1>
+                    <div className="mt-3 h-1 w-12 rounded-full bg-yellow-300" />
+                </div>
+
+
                 <div className="flex flex-col">
                     {/* <div > */}
                     <div className="w-full mb-[30px]">
@@ -15,7 +24,7 @@ const Contact = () => {
                     {/* </div> */}
                     <h2 className="flex text-center text-[40px] font-bold md:w-[70%] w-full mx-auto leading-[37px]">Let's build something significant.</h2>
 
-                    <div className="flex flex-col md:flex-col mx-auto bg-[#2B2B2C] rounded-[15px] p-[20px] w-full md:w-[70%] justify-center mt-5">
+                    <div className="flex flex-col md:flex-col mx-auto bg-[#2B2B2C] rounded-[15px] p-[20px] w-full md:w-[90%] justify-center mt-5">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-30 gap-y-7 mx-auto">
                             <div className="flex flex-col gap-1">
                                 <span className="text-[12px] text-gray-400">DIRECT EMAIL</span>
