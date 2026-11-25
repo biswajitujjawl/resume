@@ -41,16 +41,12 @@ const ResumeLayout = () => {
 
                     </main>
                 </div>
-
                 {/* Mobile & Tablet Bottom Navigation */}
                 <div className="lg:hidden mt-[70px]">
                     <ButtomNav />
                 </div>
-
-
             </div>
         </div>
-
     );
 }
 export default ResumeLayout;
